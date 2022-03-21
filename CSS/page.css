@@ -1,0 +1,40 @@
+.blue {
+        background: hsl(177, 100%, 50%,0.2);
+        border-style:solid;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        }
+h1{
+    text-align:center;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif; 
+    text-align: center;
+}
+.imagefont {
+    background: url(../IMG/mj-oh-unreal-screen01.jpg) repeat-x, 
+    url(../IMG/mj-oh-unreal-screen02.jpg)bottom repeat-x,
+    url(../IMG/mj-oh-unreal-screen03.jpg)bottom repeat-x;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    height: 2100px;
+} 
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+li{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
